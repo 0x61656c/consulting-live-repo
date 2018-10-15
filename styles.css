@@ -1,0 +1,759 @@
+input {
+    border: 1px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+textarea{
+    border: 1px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 3px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+embed{
+  margin-bottom: 0px;
+} 
+
+#particles-js
+{
+  height: 100%
+  background: #f00;
+}
+/*resizes all images based on window size*/
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/* Below deals with slideshows taken from W3 website*/
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+#smallSlide {
+  max-width: 75%;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: 0px;
+
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#black{
+  background-color: black;
+}
+
+#brown{
+  background-color: #331900;
+}
+
+#white{
+  background-color: #D3D3D3;
+}
+
+#blue{
+  background-color: #478dff;
+}
+
+#pink{
+  background-color: #d82dca;
+}
+
+
+.dot:hover {
+  background-color: gray;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    font: 18px/30px Garamond, serif;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #DCDCDC;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*Slideshow CSS ends*/
+
+.col-sm-12 {
+  padding: 0px;
+  max-width: 100%;
+}
+
+.row {
+  max-width: 100%;
+  margin: 0px;
+}
+
+.col-sm-4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+}
+/*footer CSS below*/
+.footer-distributed{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  
+
+  padding: 55px 50px 0px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 35%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 0px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 40%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+p{
+  max-width: 1200px;
+  margin-bottom: 35px;
+  padding: 0 20px;
+  line-height: 2;
+  font-size: 20px;
+  font: '', sans-serif;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #5383d3;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
+.footer-distributed {
+  margin: 0px;
+  background-color: #222222;
+}
+/*-------------
+  General
+-------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font: normal 16px sans-serif;
+  color: #555;
+}
+
+ul, nav{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+
+  opacity: 0.9;
+}
+
+a:hover{
+  opacity: 1;
+}
+
+a.btn{
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #2196F3;
+  font-weight: 800;
+  text-align: center;
+}
+
+hr{
+  width: 150px;
+  height: 2px;
+  background-color: #5383d3;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 125px 100px;
+}
+section.features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0px 0px;
+}
+
+
+
+@media (max-width: 1000px){
+
+  section{
+    padding: 100px 50px;
+  }
+
+}
+
+@media (max-width: 600px){
+
+  section{
+    padding: 80px 30px;
+  }
+
+}
+
+section h3.title{
+  color: #414a4f;
+  text-transform: capitalize; 
+  font: bold 32px 'Open Sans', sans-serif;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+section p{
+  max-width: 800px;
+  margin-bottom: 35px;
+  padding: 0 20px;
+  line-height: 2;
+  font-size: 20px;
+  font: '', sans-serif;
+}
+
+ul.grid{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+/*----------------
+  Hero Section
+----------------*/
+.hero{
+  position: relative;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+#big {
+min-height: 100vh;
+}
+
+.hero .background-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: #fff;
+  z-index: -1;
+}
+
+.hero .background-image:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #414a4f;
+  opacity: 0; /*controls dimming of background image*/
+}
+
+.hero h1{
+  font: bold 60px 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+}
+
+.hero h3{
+  font: normal 28px 'Open Sans', sans-serif;
+  margin-bottom: 40px;
+}
+
+.hero a.btn{
+  padding: 20px 46px;
+}
+
+@media (max-width: 800px){
+
+  .hero{
+    min-height: 600px;
+  }
+
+  .hero h1{
+    font-size: 48px;
+  }
+
+  .hero h3{
+    font-size: 24px;
+  }
+
+  .hero a.btn{
+    padding: 15px 40px;
+  }
+
+}
+
+
+
+/*--------------------
+  Our Work Section
+---------------------*/
+
+.оur-work{
+  background-color: #fff;
+}
+
+.our-work .grid li{
+  padding: 20px;
+  height: 350px;
+  border-radius: 3px;
+
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+}
+
+.our-work .grid li.small{
+  flex-basis: 40%;
+}
+
+.our-work .grid li.large{
+  flex-basis: 60%;
+}
+
+
+@media (max-width: 1000px){
+
+  .our-work .grid li.small,
+  .our-work .grid li.large{
+    flex-basis: 100%;
+  }
+
+}
+
+
+
+/*----------------------
+  Features Section
+----------------------*/
+
+.features{
+  background-color: white;
+}
+
+.features .grid li{
+  padding: 0 30px;
+  flex-basis: 33%;
+  text-align: center;
+  background-color: white;
+}
+
+.features .grid li i{
+    font-size: 50px;
+    color: #5383d3; /*icon color*/
+    margin-bottom: 25px;
+}
+
+.features .grid li h4{
+  color: #5383d3; /*subheader in 3 grid structure color*/
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.features .grid li p{
+    margin: 0;
+}
+
+@media (max-width: 1000px){
+
+  .features .grid li{
+    flex-basis: 70%;
+    margin-bottom: 65px;
+  }
+
+  .features .grid li:last-child{
+    margin-bottom: 0;
+  }
+
+}
+
+
+@media (max-width: 600px){
+
+  .features .grid li{
+    flex-basis: 100%;
+  }
+
+}
+
+
+
+/*--------------------
+  Reviews Section
+--------------------*/
+
+.reviews{
+  background-color: #f7f7f7;
+}
+
+.reviews .quote{
+  text-align: center;
+  width: 80%;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.reviews .author{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.reviews .author:last-child{
+    margin-bottom: 0;
+}
+
+@media (max-width: 1000px){
+
+  .reviews .quote{
+    font-size: 20px;
+  }
+
+  .reviews .author{
+      font-size: 16px;
+  }
+
+}
+
+
+
+/*---------------------
+  Contact Section
+---------------------*/
+
+.contact{
+  background-color: white;
+}
+
+.contact form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  width: 80%;
+}
+
+.contact form input{
+  padding: 15px;
+  flex: 1;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #555;
+}
+
+.contact form .btn{
+  padding: 18px 42px;
+}
+
+
+@media (max-width: 800px){
+
+  .contact form input{
+    flex-basis: 100%;
+    margin: 0 0 20px 0;
+  }
+
+}
+
+/* -- Demo ads -- */
+
+/*below used ot hide radio buttons and only show images*/
+/* taken from :https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons*/;
+    .radio_item{
+    display: none !important;
+    }
+
+    .label_item {
+    opacity: 1;
+    }
+    
+    .radio_item:checked + label {
+    opacity: 1;
+    }
+
+label {
+cursor: pointer;   
+}
+
+#padless{
+padding: 0px;
+padding-bottom: 50px;
+}
+
+#nopadafter {
+  padding-bottom: 0px;
+}
+
+
